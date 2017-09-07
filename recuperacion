@@ -1,0 +1,8 @@
+#!/bin/sh
+cd ~/.local/share/Trash/files
+ls
+echo "que archivo desea recuperar"
+read archivo
+echo "a donde quieres mover el archivo"
+read directorio
+mv $archivo $directorio
